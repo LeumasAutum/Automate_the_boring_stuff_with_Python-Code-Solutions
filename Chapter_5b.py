@@ -11,6 +11,7 @@ def addToInventory(inventory, addedItems):
         inventory[item] += 1
     return inventory
 
+
 inventory = {'gold coin': 42, 'rope': 1}
 dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
 inventory = addToInventory(inventory, dragonLoot)
