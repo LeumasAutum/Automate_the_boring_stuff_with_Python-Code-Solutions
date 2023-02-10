@@ -8,7 +8,7 @@
 # “inventory” and display it like the following:
 # Inventory:
 # 12 arrow
-# 42 gold coin
+# 42 gold coin 
 # 1 rope
 # 6 torch
 # 1 dagger
@@ -24,3 +24,5 @@ def displayInventory(inventory):
 
 inventory = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}
 displayInventory(inventory)
+
+
